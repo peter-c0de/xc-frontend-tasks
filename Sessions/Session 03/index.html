@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 3: Tasks</title>
+</head>
+<body>
+    <h2>Session 3: Task 1</h2>
+
+    <label for="taskName">Task Name</label>
+    <input type="text" name="taskName" id="taskName" value="Clean Working desk"><br>
+
+    <label for="note">Note</label>
+    <textarea name="note" id="note"></textarea><br>
+
+    <label for="taskDelegations">Task Delegations</label>
+    <input type="text" name="taskDelegations" id="taskDelegations" value="root"><br>
+
+    <label for="dateFrom">From</label>
+    <input type="date" name="dateFrom" id="dateFrom">
+    <input type="time" name="timeFrom" id="timeFrom"><br>
+
+    <label for="dateTo">To</label>
+    <input type="date" name="dateTo" id="dateTo">
+    <input type="time" name="timeTo" id="timeTo"><br>
+
+    <label for="allDay">All Day</label>
+    <input type="checkbox" name="allDay" id="allDay"><br>
+
+    <label for="priority">Priority</label>
+    <select name="priority" id="priority">
+        <option value="none">None</option>
+    </select><br>
+
+    <label for="calendar">Calendar</label>
+    <select name="calendar" id="calendar">
+        <option value="default">Default</option>
+    </select><br>
+
+    <label for="taskCat">Task Category</label>
+    <select name="taskCat" id="taskCat">
+        <option value="all">All</option>
+    </select><br>
+
+    <label for="taskStatus">Task Status</label>
+    <select name="taskStatus" id="taskStatus">
+        <option value="needsAction">Needs Action</option>
+    </select><br>
+
+    <label for="attachments">Attachments</label>
+    <input type="file" name="attachments" id="attachments"><br>
+
+    <button>Save</button>
+    <button>Cancel</button>
+
+    <h2>Session 3: Task 2</h2>
+    <table border="1">
+        <thead>
+            <th>Photo</th>
+            <th>Video</th>
+            <th>List</th>
+            <th>Name</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://placehold.co/200x200" alt="placeholder image"></td>
+                <td>
+                    <video width="350" height="350" controls>
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td>
+                    <ul>
+                        <li>1st Item</li>
+                        <li>2nd Item</li>
+                        <li>3rd Item</li>
+                    </ul>
+                </td>
+                <td>
+                    <h2>Peter E.</h2>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
