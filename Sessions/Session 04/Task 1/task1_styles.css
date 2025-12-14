@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.products {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 5px;
+    width: 30%;
+}
